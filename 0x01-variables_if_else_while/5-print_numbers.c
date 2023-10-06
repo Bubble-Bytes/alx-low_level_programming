@@ -4,17 +4,17 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- * /
- * int main(void)
- {
- 	int n = 0
+ */
+int main(void)
+{
+	int n = 0;
 
-	while (n<10)
+	while (n < 10)
 	{
-		printf("%d", n)
+		printf("%d", n);
 		n++;
 	}
 	putchar('\n');
 
-	return (0)
- }
+	return (0);
+}
