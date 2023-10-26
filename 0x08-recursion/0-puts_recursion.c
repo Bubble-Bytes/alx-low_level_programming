@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * Writing a function that prints a string
- *
- * Return: Always 0.
+ * _puts_recursion - Prints a string using recursion
+ * @s: The string to be printed
  */
+
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
